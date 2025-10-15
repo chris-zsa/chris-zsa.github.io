@@ -6,7 +6,7 @@ pub:            "North American Chapter of the Association for Computational Lin
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 pub_date:       "2025"
 abstract: >-
-  There has been an increasing interest in the alignment of large language models (LLMs) with human values. However, the safety issues of their integration with a vision module, or vision language models (VLMs), remain relatively underexplored. We propose a novel jailbreaking attack against VLMs, aiming to bypass their safety barrier when a user inputs harmful instructions. By replacing the original textual captions with malicious jailbreak prompts, our method can perform jailbreak attacks with the poisoned images. We demonstrate the efficacy of our attack by comparing it with baseline methods.
+  ImgTrojan: VLM jailbreaking with ONE poisoned image. Key contributions: (1) Training-time attack via malicious image captions, (2) Comprehensive VLM safety evaluation metrics, (3) Systematic vulnerability analysis. Successfully bypasses safety mechanisms across multiple VLM architectures.
 cover:          /assets/images/covers/imgtrojan_cover.png
 authors:
   - Xijia Tao*
@@ -16,6 +16,6 @@ authors:
   - Lingpeng Kong
 links:
   Paper: https://arxiv.org/abs/2403.02910
-  ACL Anthology: https://aclanthology.org/2025.naacl-long.360/
   Code: https://github.com/xijia-tao/ImgTrojan
+  ACL Anthology: https://aclanthology.org/2025.naacl-long.360/
 ---

@@ -58,12 +58,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .cover-image {
-    width: 180px;
-    max-height: 120px;
+    max-width: 320px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
 .abstract-body {
-    min-height: 100px;
+    min-height: 140px;
 }
 
 img.lazy {
@@ -72,6 +75,26 @@ img.lazy {
     background-position: 50% 50%;
     background-size: 50px 50px;
     min-height: 80px;
+    max-width: 320px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Larger publication images */
+.publication-cover {
+    max-width: 320px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Larger profile photo */
+.profile-photo {
+    max-width: 280px;
+    width: 100%;
 }
 
 div.lazy {

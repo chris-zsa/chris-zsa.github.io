@@ -5,7 +5,7 @@ selected:       true
 pub:            "arXiv preprint"
 pub_date:       "2025"
 abstract: >-
-  The rapid advancement of large vision language models (LVLMs) and agent systems has heightened interest in mobile GUI agents that can reliably translate natural language into interface operations. We introduce SWIRL, a staged workflow for interleaved reinforcement learning designed for multi-agent systems. SWIRL reformulates MARL into a sequence of single-agent reinforcement learning tasks, updating one agent at a time while keeping the others fixed. In application to mobile GUI control, SWIRL instantiates a Navigator that converts language and screen context into structured plans, and an Interactor that grounds these plans into executable atomic actions.
+  SWIRL: A multi-agent RL framework with interleaved updates. Key contributions: (1) Theoretical guarantees & convergence proofs, (2) O(1) memory efficiency, (3) SOTA zero-shot GUI control with only 3.5K examples. Transferable across domains (GUI + math reasoning).
 cover:          /assets/images/covers/swirl_cover.jpg
 authors:
   - Quanfeng Lu*
