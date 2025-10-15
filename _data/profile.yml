@@ -4,13 +4,13 @@ navbar_name: "Shuai Zhong"
 
 positions:
 - name: M.Phil. Student @ <a href="https://www.cds.hku.hk/" target="_blank">HKU-CDS</a>
-- name: VLM Agent Researcher
+- name: Agentic AI Explorer
 
 email: "chris_zsa@connect.hku.hk"
 # cv_link: link-to-your-cv-file
 gscholar: lYQsYYoAAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: chris-zsa
-twitter: chris_zsa  # Do not include the '@' symbol
+# twitter: chris_zsa  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
@@ -20,23 +20,18 @@ twitter: chris_zsa  # Do not include the '@' symbol
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi there. I'm Shuai Zhong (鍾帥, /ʈʂʊŋ ʃuaɪ/), you can also call me Chris. I'm a M.Phil. student @ <a href="https://mmlab.hk/" target="_blank">HKU MMLab</a>, 
-    <a href="https://maps.google.com/maps?q=The+University+of+Hong+Kong&t=&z=15&ie=UTF8&iwloc=&output=embed" target="_blank">The University of Hong Kong</a>.
-  </p>
-  <p> 
-    Currently, I'm exploring the intersection of 
-    Vision-Language Foundation Models and Agentic AI Systems under the supervision of 
-    <a href="https://luoping.me/" target="_blank">Dr. Ping Luo</a> and co-supervision of 
-    <a href="https://ikekonglp.github.io/" target="_blank">Dr. Lingpeng Kong</a>. 
-    I also had the privilege of working with <a href="https://xh-liu.github.io/" target="_blank">Dr. Xihui Liu</a> 
-    as my UG FYP advisor @ <a href="https://www.eee.hku.hk/" target="_blank">HKU-EEE</a>. My research focuses on developing autonomous agents that can perceive, reason, and act in complex multimodal environments - 
+    Hi there. I'm Shuai Zhong (鍾帥, /dʒʊŋ1 ʃuaɪ4/), you can also call me Chris. I'm a M.Phil. student @ <a href="https://mmlab.hk/" target="_blank">HKU MMLab</a>, 
+    <a href="https://maps.google.com/maps?q=The+University+of+Hong+Kong&t=&z=15&ie=UTF8&iwloc=&output=embed" target="_blank">The University of Hong Kong</a>. My research focuses on developing autonomous agents that can perceive, reason, and act in complex multimodal environments - 
     particularly in GUI control and collaborative multi-agent scenarios. 🤖
   </p>
   <p>
     My work spans from adversarial robustness in VLMs (exploring novel jailbreaking paradigms) to emergent behaviors in 
-    multi-agent reinforcement learning systems. I'm particularly interested in staged workflows for interleaved RL, 
-    where we decompose end-to-end VLM agents into specialized planner-actor architectures. Recent projects include 
-    developing dense reward models for GUI automation and investigating the interpretability of vision-language reasoning chains.
+    multi-agent reinforcement learning systems. Currently, I'm exploring the intersection of 
+    Vision-Language Foundation Models and Agentic AI Systems under the supervision of 
+    <a href="https://luoping.me/" target="_blank">Dr. Ping Luo</a> and co-supervision of 
+    <a href="https://ikekonglp.github.io/" target="_blank">Dr. Lingpeng Kong</a> @ <a href="https://www.cds.hku.hk/" target="_blank">HKU-CDS</a>. 
+    I also had the privilege of working with <a href="https://xh-liu.github.io/" target="_blank">Dr. Xihui Liu</a> 
+    as my UG FYP advisor @ <a href="https://www.eee.hku.hk/" target="_blank">HKU-EEE</a>.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -48,7 +43,6 @@ education:
   logo: /assets/images/badges/HKU_logo.png
   position: >- 
     M.Phil. in Computer Science <br/>
-    Supervised by Dr. Ping Luo
   date: Sep. 2025 - Jul. 2027 (expected)
 - name: The University of Hong Kong
   logo: /assets/images/badges/HKU_logo.png
